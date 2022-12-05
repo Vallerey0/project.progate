@@ -1,0 +1,199 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clear {
+    clear: left;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 10px;
+    margin: 0 auto;
+
+}
+
+.top-wrapper {
+    padding: 180px 0 100px 0;
+    background-color: white;
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.top-wrapper h1.ken {
+    opacity: 0.7;
+    letter-spacing: 5px;
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.container span {
+    color: yellow;
+}
+
+.top-wrapper p {
+    opacity: 0.7;
+    font-size: 30px;
+}
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.9);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.judul {
+    color: white;
+    width: 200px;
+    margin-top: 15px;
+}
+
+.header-left {
+    float: left;
+}
+
+.header-left a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+}
+
+.header-right a:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+.about-me {
+    background-color: #e0dfd779;
+    text-align: center;
+    padding: 50px;
+}
+
+
+.menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display: none;
+}
+
+.lesson-wrapper {
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+}
+
+.heading {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: #5f5d60;
+}
+
+.container .icon {
+    width: 25%;
+}
+
+.heading h2 {
+    font-weight: normal;
+}
+
+.lesson {
+    float: left;
+    width: 33.3%;
+}
+
+.lesson-icon {
+    position: relative;
+}
+
+.lesson-icon img {
+    width: 50%;
+}
+
+.text-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 15px;
+    color: #b3aeb5;
+}
+
+.heading h3 {
+    font-weight: normal;
+}
+
+.contact-form {
+    padding: 30px;
+    background-color: #e0dfd779;
+    margin: auto;
+    text-align: center;
+}
+
+.contact-form h3 {
+    font-weight: 900;
+}
+
+input,
+textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    font-size: 100%;
+    border-radius: 20px;
+    border: 1px solid #dee7ec;
+}
+
+.contact-submit {
+    background-color: #f1e577;
+    color: #000000;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.judul-footer {
+    color: white;
+    text-align: left;
+}
+
+.footer {
+    background-color: #5f5d60;
+    color: #fff;
+    height: 120px;
+    padding: 10px;
+}
+
+.footer-logo {
+    float: left;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.footer-list {
+    float: right;
+}
+
+.footer-list li {
+    cursor: pointer;
+    list-style: none;
+    text-align: justify;
+    margin: 10px;
+}
